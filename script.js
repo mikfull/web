@@ -52,4 +52,5 @@ function createTextBubble(){
         bubble.remove();
     },90000);
 
-}setInterval(createTextBubble, 400);
+}setInterval(createTextBubble, 500);
+
