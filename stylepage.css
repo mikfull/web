@@ -1,0 +1,33 @@
+.add {
+  background-color: #d63384; 
+  color: white;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 30px;
+  background-size: 100px;
+  background-attachment: fixed;
+}
+.add:hover {
+  background-color: #d63400; 
+}
+body{
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('https://hips.hearstapps.com/hmg-prod/images/frases-de-amor-1674744978.jpg?crop=1xw:0.84375xh;0,0.149xh') no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    
+
+}

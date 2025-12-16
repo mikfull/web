@@ -8,11 +8,24 @@ body{
     background: url('https://hips.hearstapps.com/hmg-prod/images/frases-de-amor-1674744978.jpg?crop=1xw:0.84375xh;0,0.149xh') no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Arial', sans-serif;
+    font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
     overflow: hidden;
     position: relative;
 
+}
+
+.mi-boton {
+  background-color: #d63384; 
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.mi-boton:hover {
+  background-color: #d63400; 
 }
 
 @keyframes gradientAnimation {
