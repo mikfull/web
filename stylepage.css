@@ -1,33 +1,45 @@
-.add {
-  background-color: #d63384; 
-  color: white;
-  padding: 20px 30px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-family: "Comic Sans MS", cursive, sans-serif;
-  font-size: 30px;
-  background-size: 100px;
-  background-attachment: fixed;
-}
-.add:hover {
-  background-color: #d63400; 
-}
-body{
-    display : flex;
+body {
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background: url('https://hips.hearstapps.com/hmg-prod/images/frases-de-amor-1674744978.jpg?crop=1xw:0.84375xh;0,0.149xh') no-repeat center center;
-    background-size: cover;
+    background-size: cover; /* Cover evita deformación */
     background-attachment: fixed;
     font-family: "Comic Sans MS", cursive, sans-serif;
-    font-size: 30px;
     text-align: center;
     overflow: hidden;
     position: relative;
-    
+}
 
+.add {
+    background-color: #d63384; 
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 30px;
+    text-decoration: none; /* Quitar subrayado si es <a> */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.2s;
+}
+
+.add:hover {
+    background-color: #d63400; 
+    transform: scale(1.05);
+}
+
+/* Ajuste Específico para Móvil */
+@media (max-width: 768px) {
+    .add {
+        font-size: 24px; /* Texto más manejable */
+        padding: 15px 30px;
+        width: 60%; /* Ancho controlado */
+        display: block;
+        text-align: center;
+    }
 }
