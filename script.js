@@ -39,6 +39,7 @@ const isMobile = window.innerWidth < 768;
 
 // En móvil (menos de 768px) salen cada 1800ms, en PC cada 600ms
 // Esto evita que la pantalla del móvil se llene y no puedas leer nada
-const intervalTime = isMobile ? 1800 : 600;
+const intervalTime = isMobile ? 900 : 600;
 
 setInterval(createTextBubble, intervalTime);
+
