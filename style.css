@@ -23,7 +23,7 @@ body {
     border-radius: 50px; /* Bordes más suaves */
     cursor: pointer;
     text-decoration: none; /* Quitar subrayado del link */
-    font-size: 30px;
+    font-size: 60px;
     z-index: 100; /* IMPORTANTE: Para que esté por encima de las burbujas */
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
     transition: transform 0.2s;
@@ -116,3 +116,4 @@ body {
     }
 
 }
+
